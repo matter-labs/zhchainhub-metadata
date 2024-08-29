@@ -1,0 +1,85 @@
+[
+    {
+        "chainId": 300,
+        "name": "ZKsync Sepolia testnet",
+        "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/24091.png",
+        "publicRpcs": [
+            "https://sepolia.era.zksync.dev",
+            "https://zksync-sepolia.drpc.org",
+            "https://zksync-era-sepolia.blockpi.network/v1/rpc/public"
+        ],
+        "explorerUrl": "https://sepolia.explorer.zksync.io",
+        "launchDate": 1679626800,
+        "chainType": "Rollup",
+        "baseToken": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "contractAddress": null,
+            "type": "native",
+            "imageUrl": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+            "decimals": 18
+        }
+    },
+    {
+        "chainId": 282,
+        "name": "Cronos testnet",
+        "iconUrl": "https://zkevm.cronos.org/images/chains/zkevm.svg",
+        "chainType": "Validium",
+        "publicRpcs": ["https://testnet.zkevm.cronos.org"],
+        "explorerUrl": "https://explorer.zkevm.cronos.org/testnet",
+        "baseToken": {
+            "name": "zkCronos Testnet",
+            "symbol": "zkTCRO",
+            "contractAddress": "0x49cE7551514f3c2Bf44B50442765Bb112d0e8204",
+            "imageUrl": "https://assets.coingecko.com/coins/images/39734/large/Screenshot_2024-08-16_at_10.42.41%E2%80%AFAM.png?1723776225",
+            "type": "erc20",
+            "decimals": 18
+        },
+        "launchDate": 1702558800
+    },
+    {
+        "chainId": 326,
+        "name": "Gravity testnet",
+        "chainType": "Validium",
+        "publicRpcs": [],
+        "baseToken": {
+            "name": "GRVTBaseToken",
+            "symbol": "GBT",
+            "contractAddress": "0xbBc446B2C84ed42e47cCE723b9Be976226a3A08c",
+            "type": "erc20",
+            "decimals": 18
+        },
+        "launchDate": 1702558800
+    },
+    {
+        "chainId": 11124,
+        "name": "Abstract testnet",
+        "chainType": "Rollup",
+        "publicRpcs": ["https://api.testnet.abs.xyz"],
+        "explorerUrl": "https://explorer.testnet.abs.xyz",
+        "baseToken": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "contractAddress": null,
+            "type": "native",
+            "imageUrl": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+            "decimals": 18
+        },
+        "launchDate": 1702558800
+    },
+    {
+        "chainId": 531050104,
+        "name": "Sophon testnet",
+        "iconUrl": "https://zkevm.cronos.org/images/chains/zkevm.svg",
+        "chainType": "Rollup",
+        "publicRpcs": ["https://rpc.testnet.sophon.xyz"],
+        "baseToken": {
+            "name": "Sophon",
+            "symbol": "SOPH",
+            "contractAddress": "0x06c03F9319EBbd84065336240dcc243bda9D8896",
+            "type": "erc20",
+            "decimals": 18
+        },
+        "launchDate": 1702558800
+    }
+]

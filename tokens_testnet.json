@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Ether",
+        "symbol": "ETH",
+        "contractAddress": null,
+        "coingeckoId": "ethereum",
+        "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
+        "type": "native",
+        "decimals": 18
+    },
+    {
+        "name": "GRVTBaseToken",
+        "symbol": "GBT",
+        "contractAddress": "0xbBc446B2C84ed42e47cCE723b9Be976226a3A08c",
+        "type": "erc20",
+        "decimals": 18
+    },
+    {
+        "name": "zkCronos Testnet",
+        "symbol": "zkTCRO",
+        "contractAddress": "0x49cE7551514f3c2Bf44B50442765Bb112d0e8204",
+        "coingeckoId": "cronos-zkevm-cro",
+        "imageUrl": "https://assets.coingecko.com/coins/images/39734/large/Screenshot_2024-08-16_at_10.42.41%E2%80%AFAM.png?1723776225",
+        "type": "erc20",
+        "decimals": 18
+    },
+    {
+        "name": "Pepe",
+        "symbol": "PEPE",
+        "contractAddress": "0x2e5d74F916003ad7615FB7B36afc3366a7c540A7",
+        "coingeckoId": "pepe",
+        "imageUrl": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
+        "type": "erc20",
+        "decimals": 18
+    },
+    {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "contractAddress": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "coingeckoId": "uniswap",
+        "imageUrl": "https://assets.coingecko.com/coins/images/12504/large/uni.jpg?1696512319",
+        "type": "erc20",
+        "decimals": 18
+    },
+    {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "contractAddress": "0xd0df82de051244f04bff3a8bb1f62e1cd39eed92",
+        "coingeckoId": "weth",
+        "imageUrl": "https://assets.coingecko.com/coins/images/2518/large/weth.png?1696503332",
+        "type": "erc20",
+        "decimals": 18
+    },
+    {
+        "name": "Sophon",
+        "symbol": "SOPH",
+        "contractAddress": "0x06c03F9319EBbd84065336240dcc243bda9D8896",
+        "type": "erc20",
+        "decimals": 18
+    }
+]

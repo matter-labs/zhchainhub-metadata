@@ -12,24 +12,24 @@ This file contains an array of Chain metadata. To add a new one, follow the foll
 
 ```json
 {
-    "chainId": 324, //mandatory
-    "name": "ZKsyncERA", //mandatory
-    "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/24091.png", //optional
+    "chainId": 324, // mandatory
+    "name": "ZKsyncERA", // mandatory
+    "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/24091.png", // optional
     "publicRpcs": [
         "https://mainnet.era.zksync.io",
         "https://zksync.drpc.org",
         "https://zksync.meowrpc.com"
     ], //optional,
-    "explorerUrl": "https://explorer.zksync.io/", //optional
-    "launchDate": 1679626800, //mandatory
+    "explorerUrl": "https://explorer.zksync.io/", // optional
+    "launchDate": 1679626800, // mandatory
     "chainType": "Rollup", // "Rollup" | "Validium"
     "baseToken": {
-        "name": "Ether", //mandatory
-        "symbol": "ETH", //mandatory
+        "name": "Ether", // mandatory
+        "symbol": "ETH", // mandatory
         "type": "native", // "native" | "erc20"
         "contractAddress": null, // null if "native", address if "erc20"
-        "imageUrl": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628", //optional
-        "decimals": 18 //mandatory
+        "imageUrl": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628", // optional
+        "decimals": 18 // mandatory
     }
 }
 ```

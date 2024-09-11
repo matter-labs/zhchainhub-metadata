@@ -9,6 +9,7 @@
             "https://zksync-era-sepolia.blockpi.network/v1/rpc/public"
         ],
         "explorerUrl": "https://sepolia.explorer.zksync.io",
+        "websiteUrl": "https://zksync.io/",
         "launchDate": 1679626800,
         "chainType": "Rollup",
         "baseToken": {
@@ -27,6 +28,7 @@
         "chainType": "Validium",
         "publicRpcs": ["https://testnet.zkevm.cronos.org"],
         "explorerUrl": "https://explorer.zkevm.cronos.org/testnet",
+        "websiteUrl": "https://cronos.org/zkevm",
         "baseToken": {
             "name": "zkCronos Testnet",
             "symbol": "zkTCRO",
@@ -42,6 +44,7 @@
         "name": "Gravity testnet",
         "chainType": "Validium",
         "publicRpcs": [],
+        "websiteUrl": "https://grvt.io/",
         "baseToken": {
             "name": "GRVTBaseToken",
             "symbol": "GBT",
@@ -57,6 +60,7 @@
         "chainType": "Rollup",
         "publicRpcs": ["https://api.testnet.abs.xyz"],
         "explorerUrl": "https://explorer.testnet.abs.xyz",
+        "websiteUrl": "https://abs.xyz/",
         "baseToken": {
             "name": "Ether",
             "symbol": "ETH",
@@ -73,6 +77,7 @@
         "iconUrl": "https://zkevm.cronos.org/images/chains/zkevm.svg",
         "chainType": "Rollup",
         "publicRpcs": ["https://rpc.testnet.sophon.xyz"],
+        "websiteUrl": "https://farm.sophon.xyz/",
         "baseToken": {
             "name": "Sophon",
             "symbol": "SOPH",

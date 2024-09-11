@@ -21,6 +21,7 @@ This file contains an array of Chain metadata. To add a new one, follow the foll
         "https://zksync.meowrpc.com"
     ], //optional,
     "explorerUrl": "https://explorer.zksync.io/", // optional
+    "websiteUrl": "https://zksync.io/", // optional
     "launchDate": 1679626800, // mandatory
     "chainType": "Rollup", // "Rollup" | "Validium"
     "baseToken": {
